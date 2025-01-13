@@ -13,7 +13,6 @@ extern motor_group Rightmotorgroup;
 extern motor_group Leftmotorgroup;
 extern digital_out hook;
 extern inertial intertialSensor;
-
 void vexcodeInit();
-void InertialTurnHeading(double targetHeading);
 void moveDistance(double targetDistance);
+void turnToAngle(double degrees);

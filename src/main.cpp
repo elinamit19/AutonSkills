@@ -16,20 +16,19 @@ vex::brain       Brain;
 
 // define your global instances of motors and other devices here
 extern void DistanceCoder(void);
-extern void InertialTurnHeading(void);
+extern void turnToAngle(void);
 extern void ScoreRings(void);
 int main() {
-conveyor.spinFor(reverse, 2000, degrees, 150, rpm);
-moveDistance(12.0);
-InertialTurnHeading(90.0);
-moveDistance(-24.0);
+hook.set(false);
+moveDistance(12);
+turnToAngle(-50);
+moveDistance(-24);
 hook.set(true);
-InertialTurnHeading(-90.0);
-moveDistance(24.0);
-ScoreRings();
+moveDistance(-24);
+turnToAngle(25);
+moveDistance(-24);
 
 
 
 
-   
 }
