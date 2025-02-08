@@ -27,6 +27,36 @@ hook.set(true);
 moveDistance(-24);
 turnToAngle(25);
 moveDistance(-24);
+hook.set(false);
+moveDistance(24);
+turnToAngle(-25);
+moveDistance(48);
+turnToAngle(100);
+moveDistance(-24);
+hook.set(true);
+moveDistance(-24);
+turnToAngle(-25);
+moveDistance(-24);
+hook.set(false);
+moveDistance(24);
+turnToAngle(-25);
+moveDistance(72);
+turnToAngle(50);
+moveDistance(24);
+turnToAngle(-50);
+moveDistance(-24);
+hook.set(true);
+turnToAngle(-50);
+moveDistance(-48);
+hook.set(false);
+moveDistance(72);
+turnToAngle(100);
+moveDistance(-24);
+hook.set(true);
+moveDistance(-48);
+hook.set(false);
+moveDistance(24);
+
 
 
 
