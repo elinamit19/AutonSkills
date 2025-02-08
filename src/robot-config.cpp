@@ -6,10 +6,10 @@ using code = vision::code;
 
 controller Controller1 = controller(primary);
 motor LeftMotor1 = motor(PORT1, ratio18_1, true);
-motor LeftMotor2 = motor(PORT10, ratio18_1, true);
-motor RightMotor1 = motor(PORT9, ratio18_1, false);
+motor LeftMotor2 = motor(PORT2, ratio18_1, true);
+motor RightMotor1 = motor(PORT20, ratio18_1, false);
 motor RightMotor2 = motor(PORT12, ratio18_1, false);
-motor conveyor = motor(PORT6, ratio18_1, false);
+motor conveyor = motor(PORT10, ratio18_1, false);
 motor intake = motor(PORT3, ratio18_1, false);
 inertial intertialSensor = inertial(PORT8);
 digital_out hook = digital_out(Brain.ThreeWirePort.A);
